@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'weather';
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf") format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+ul.social-links {
+  position: fixed;
+  right: 0.3%;
+  bottom: 80px; }
+ul.social-links a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  padding-right: 10px; }
+ul.social-links li {
+  padding-right: 0; }
+ul.social-links i {
+  font-size: 30px; }
+ul.social-links i.fa-facebook:hover {
+   color: #3b5998; }
+ul.social-links i.fa-twitter:hover {
+   color: #00aced; }
+ul.social-links i.fa-paper-plane:hover{
+    color: #00aced; 
+}
+ul.social-links .fa-instagram:hover{
+    color: #7F5040; 
+}
+svg.imoveLogoSVG {
+  width: 150px;
+  height: 56px; 
+}
+svg.imovelogo {
+  width: 100px;
+  height: 30px; 
+}

@@ -1,0 +1,70 @@
+body {
+    display: none
+}
+#jpreOverlay {
+    background-color: #DFF6FF
+}
+.loaderbg {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    background-image: url(images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+/*mobile*/
+@media only screen and (min-width: 320px) and (max-width: 650px){
+   .loaderbg {
+        margin-left: auto;
+    } 
+}
+/*tablet*/
+@media only screen and (min-width: 651px) and (max-width: 1000px){
+    
+}
+/*desktops smaller than 1400px*/
+@media only screen and (min-width: 1001px) and (max-width: 1400px){
+    
+}
+
+.loaderbg img {
+    margin-top: 50px;
+    margin-right: 10px
+}
+#jpreSlide {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ccc;
+    text-align: center;
+    width: 50%;
+    height: 220px;
+    position: relative!important;
+    top: auto!important;
+    left: auto!important;
+    margin: 20% auto 0
+}
+#jpreLoader {
+    position: relative!important;
+    top: auto!important;
+    left: auto!important;
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    margin: 0 auto
+}
+#jpreBar,
+#jprePercentage {
+    display: none
+}
+#jpreButton {
+    background: #a6486d;
+    padding: 12px 26px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 auto
+}

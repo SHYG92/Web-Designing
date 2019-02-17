@@ -1,0 +1,516 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    background: #DFF6FF;
+}
+.container {
+    position: relative;
+    display: none
+}
+.horizon {
+    line-height: 0;
+    z-index: 100;
+    width: 21850px;
+}
+.horizon .intro-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 572px;
+    height: 800px;
+    background: url(images/buildings.svg) no-repeat;
+    background-position: center
+}
+.horizon .partone {
+    position: absolute;
+    left: 572px;
+    bottom: 0;
+    width: 10820px;
+    height: 800px;
+    background: url(images/buildings.png);
+    background-size: contain;
+}
+.horizon .parttwo {
+    position: absolute;
+    left: 11392px;
+    width: 10820px;
+    height: 800px;
+    bottom: 0;
+    background: url(images/buildings.png);
+    background-size: contain;
+}
+.clouds {
+    line-height: 0;
+    z-index: 1;
+    width: 13344px
+}
+.clouds .one {
+    position: absolute;
+    width: 235px;
+    height: 137px
+}
+.clouds .two {
+    position: absolute;
+    width: 193px;
+    height: 108px
+}
+.clouds .three {
+    position: absolute;
+    width: 257px;
+    height: 165px
+}
+.clouds .pos1 {
+    left: 700px;
+    bottom: 450px
+}
+.clouds .pos2 {
+    left: 1320px;
+    bottom: 650px
+}
+.clouds .pos3 {
+    left: 2320px;
+    bottom: 600px
+}
+.clouds .pos5 {
+    left: 3200px;
+    bottom: 550px
+}
+.clouds .pos6 {
+    left: 4050px;
+    bottom: 410px
+}
+.clouds .pos8 {
+    left: 5050px;
+    bottom: 600px
+}
+.clouds .pos9 {
+    left: 5950px;
+    bottom: 445px
+}
+.clouds .pos10 {
+    left: 6150px;
+    bottom: 545px
+}
+.clouds .pos11 {
+    left: 7150px;
+    bottom: 645px
+}
+.clouds .pos12 {
+    left: 7550px;
+    bottom: 435px
+}
+.clouds .pos13 {
+    left: 7850px;
+    bottom: 605px
+}
+.clouds .pos14 {
+    left: 8050px;
+    bottom: 405px
+}
+.clouds .pos16 {
+    left: 9200px;
+    bottom: 515px
+}
+.clouds .pos17 {
+    left: 9800px;
+    bottom: 450px
+}
+.clouds .pos18 {
+    left: 10300px;
+    bottom: 550px
+}
+.clouds .pos20 {
+    left: 11200px;
+    bottom: 630px
+}
+.clouds .pos21 {
+    left: 11600px;
+    bottom: 420px
+}
+.clouds .pos22 {
+    left: 12000px;
+    bottom: 530px
+}
+.clouds .pos23 {
+    left: 12700px;
+    bottom: 410px
+}
+.middle {
+    line-height: 0;
+    z-index: 250;
+    width: 22000px
+}
+.middle .partone {
+    position: absolute;
+    left: 572px;
+    bottom: 0;
+    width: 10820px;
+    height: 800px;
+    background: url(images/buildings02.png) no-repeat;
+}
+.middle .parttwo {
+    position: absolute;
+    left: 11420px;
+    width: 11820px;
+    height: 800px;
+    bottom: 0;
+    background: url(images/buildings03.png) no-repeat;
+}
+.front {
+    z-index: 500;
+    bottom: -10px;
+    width: 20000px
+}
+.copy {
+    width: 500px;
+    height: 800px
+}
+.intro {
+    position: absolute;
+    width: 572px;
+    height: 800px;
+    left: 250px;
+    bottom: 100px;
+    background-image: url(images/intro.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.era {
+    position: absolute;
+    bottom: 490px;
+    display: none
+}
+.era-one {
+    left: 2260px;
+    background: url(images/case01.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-two {
+    left: 4230px;
+    background: url(images/case02.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-three {
+    left: 6192px;
+    background: url(images/case03.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-four {
+    left: 8162px;
+    background: url(images/case04.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-five {
+    left: 10124px;
+    background: url(images/case05.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-six {
+    left: 12300px;
+    background: url(images/case06.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-seven {
+    left: 14280px;
+    background: url(images/case07.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-eight {
+    left: 16286px;
+    background: url(images/case08.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-nine {
+    left: 18280px;
+    background: url(images/case09.png) right 5px no-repeat;
+    background-size: contain;
+}
+.era-ten {
+    left: 20234px;
+    background: url(images/case10.png) right 5px no-repeat;
+    background-size: contain;
+}
+.carwrap {
+    position: fixed;
+    top: 10%;
+    left: 8%;
+    height: 70px;
+    width: 100%;
+    overflow: visible;
+    z-index: 1000
+}
+
+#infographic-logo {
+  position: fixed;
+  margin: 20px;
+  z-index: 5000;
+  bottom: -14px;
+  right: -12px; 
+}
+#infograph-progress {
+  left: 36%;
+  bottom: 40px;
+  top: auto; 
+}
+.progress {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 100px;
+    height: 34px;
+    width: 100%;
+    overflow: visible;
+    z-index: 1000
+}
+.progress:before {
+    border-top: 4px solid #dfdfdf;
+    content: "";
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    right: 0;
+    bottom: 10px;
+    width: 740px;
+    z-index: -1
+}
+.progress a {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px 0 0;
+    color: #fff;
+    text-decoration: none
+}
+.progress a.active {
+    color: #fff
+}
+.progress h3 {
+    display: block;
+    font-weight: 400;
+    font-size: .8em;
+    text-align: center;
+    margin-right: 20px
+}
+.progress span {
+    display: inline-block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    margin-top: 3px;
+    margin-right: 20px
+}
+
+.progress span .person {
+    width: 30px;
+    height: 30px;
+}
+
+.progress a.active span {
+    background: #AF2C2C
+}
+.social {
+    line-height: 0;
+    z-index: 1250;
+    width: 2000px
+}
+.social .social-wrapper {
+    position: absolute;
+    left: 39200px;
+    bottom: 405px;
+    width: 495px;
+    height: 300px
+}
+.social ul.social-links {
+    margin: 40px 0 0;
+    padding: 0;
+    list-style-type: none
+}
+.social ul.social-links li {
+    display: inline
+}
+
+.end {
+    position: absolute;
+    bottom: 0;
+    left: 21460px;
+    width: 400px;
+    height: 800px;
+    background-image: url(images/end.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 10000
+    
+}
+
+/*mobile*/
+@media only screen and (min-width: 320px) and (max-width: 650px){ 
+    .carwrap {
+        top: 10%;
+    }
+    #infograph-progress {
+      display: none; 
+    }
+    #infograph-progress a {
+      display: none; 
+    }
+    #infograph-progress::before {
+      content: "";
+      display: none; 
+    }
+    .era-ten {
+        left: 20040px;
+    }
+}
+/*tablet*/
+@media only screen and (min-width: 651px) and (max-width: 1000px){
+    #infograph-progress {
+      display: none; 
+    }
+    #infograph-progress a {
+      display: none; 
+    }
+    #infograph-progress::before {
+      content: "";
+      display: none; }
+    .era {
+       bottom: 300px;
+    }
+    era-seven {
+        left: 14068px;
+    }
+    era-eight {
+        left: 16100px;
+    }
+    era-nine {
+        left: 18106px;
+    }
+    era-ten {
+        left: 19994px;
+    }
+}
+/*desktops smaller than 1400px*/
+@media only screen and (min-width: 1001px) and (max-width: 1400px){
+    .intro {
+    width: 350px;
+    height: 460px;
+    left: 170px;
+    bottom: 30px;
+    }
+    .end {
+    left: 21462px;
+    width: 290px;
+    bottom: -110px;
+    }
+    .era {
+     bottom: 250px;   
+    }
+    #infograph-progress {
+        left: 3%;
+        bottom: 40px;
+    }
+    div.carwrap {
+        left: 55px;
+    }
+    .carwrap .car img {
+        width: 7.5%;
+    }
+    .horizon .intro-bg {
+        height: 480px;
+    }
+    .horizon .partone {
+        height: 480px;
+    }
+    .horizon .parttwo {
+        height: 480px;
+    }
+    .middle .partone {
+        height: 500px;
+        background: url(images/buildings02d.png) no-repeat;
+        background-size: 100% 100%
+    }
+    .middle .parttwo {
+        height: 500px;
+        background: url(images/buildings03d.png) no-repeat;
+        background-size: 86% 100%
+    }
+    #infograph-progress {
+        left: 25%;
+    }
+    .copy {
+        width: 300px;
+        height: 350px;
+    }
+    .era-one {
+        left: 2312px;
+    }
+    .era-two {
+        left: 4295px;
+    }
+    .era-three {
+        left: 6220px;
+    }
+    .era-four {
+        left: 8184px;
+    }
+    .era-five {
+        left: 10128px;
+    }
+    .era-six {
+        left: 12410px;
+    }
+    .era-seven {
+        left: 14326px;
+    }
+    .era-eight {
+        left: 16414px;
+    }
+    .era-nine {
+        left: 18344px;
+    }
+    .era-ten {
+        left: 20330px;
+    }
+    ul.social-links {
+        right: 6px;
+        bottom: 65px; }
+    div.social .social-wrapper {
+        height: 200px; }
+    #infographic-logo {
+        margin: 10px 5px 2px 5px;
+        right: 0;
+        bottom: 10px
+    }
+    #infograph-progress {
+        left: 24%;
+        bottom: 38px; 
+    }
+    #infograph-progress::before {
+        width: 710px; 
+    }
+    #infograph-progress a {
+        font-size: 13px; 
+    }
+    #infograph-progress::before {
+      content: "";
+    }
+    #infograph-progress::before {
+      content: ""; 
+    }
+}
+/*2000px*/
+@media only screen and (min-width: 1600px){
+    .era {
+        bottom: 300px;
+    }
+}
