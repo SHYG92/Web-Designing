@@ -1,0 +1,367 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== ScrollMagic Class ==============================================
+   Author: Petr Tichy - ihatetomatoes.net
+   ========================================================================== */
+
+body {
+  font: 16px/1.5 'Raleway', Helvetica, Helvetica Neue, Arial, sans-serif; }
+
+.wrapper {
+  width: 100%;
+  margin: 0 5%; }
+
+/* Make the body 100% of the browser viewport height */
+html, body {
+  height: 100%;
+  margin: 0; 
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+  font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-weight: 700; 
+}
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 10%;
+    margin: 0 5%;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* =Main */
+p {
+  font-size: 16px; 
+}
+
+#slide01, #slide03, #slide05 {
+  background-color: #FFFFFF; 
+}
+
+#slide00 , #slide02, #slide04 {background-image:url(../img/background.png); 
+}
+#slide01{
+    background-image: url(../img/div1.png) no-repeat ;
+}
+#slide02{
+    background-image: url(../img/div2.png) no-repeat ;
+}
+#slide03{
+    background-image: url(../img/div3.png) no-repeat ;
+}
+#slide04{
+    background-image: url(../img/div4.jpg) no-repeat ;
+}
+
+.slide {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+    .slide .pin-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    .slide .wrapper {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 5%;
+        left: 1%; 
+    }
+    .slide .img {
+        position: absolute;
+        top: 2%;
+        left: 1%;
+        padding: 20%;
+        max-width: 100%;
+        background: url(../img/Plane.svg) no-repeat top left;
+        z-index: 1
+    }
+.tracker{
+    position: absolute;
+    top: 1%;
+    left: 9%;
+    padding: 20%;
+    max-width: 100%;
+    background: url(../img/rec.svg) no-repeat top left;
+    opacity: 0;
+    transition: all 1s ease-out;
+    z-index: 999999
+}
+.tracker.fade-in01{
+    opacity: 1;
+}
+.tracker.fade-in02{
+    opacity: 1;
+    transform: translateY(20px);
+}
+.tracker.fade-in03{
+    opacity: 1;
+    transform: translateY(40px);
+}
+.tracker.fade-in04{
+    opacity: 1;
+    transform: translateY(60px);
+}
+.slide .sun{
+    max-width: 100%;
+    position: absolute;
+    z-index: 0
+}
+#slide02 .img {
+  background-image: url(../img/Plane.svg);}
+
+#slide03 .img {
+  background-image: url(../img/Plane.svg);}
+
+#slide04 .img {
+  background-image: url(../img/Plane.svg);}
+
+#slide02 .pin-wrapper,
+#slide03 .pin-wrapper,
+#slide04 .pin-wrapper {
+    transform: translateY(-100%);
+}
+.scrollmagic-pin-spacer {
+    position: absolute !important;
+    clip: rect(auto, auto, auto, auto);
+}
+
+/* =Footer */
+.footer-container {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #06060d; 
+}
+.footer-container .wrapper {
+    width: 80%;
+    max-width: none;
+    margin: 0 10%; 
+}
+.footer-container h3 {
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal; 
+}
+.footer-container a {
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 1140px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+.window {
+    float: right
+}
